@@ -1,0 +1,30 @@
+ input::placeholder{
+  text-align: right;
+  direction: rtl; 
+}   
+
+#navbarSupportedContent {
+  position: absolute;
+  left: 0; /* کنار چپ صفحه */
+  top: 65px; /* پایین‌تر از نوار بالا (ارتفاع نوار) */
+  background-color: #212529; /* رنگ پس‌زمینه مشابه navbar */
+  width: 200px; /* عرض دلخواه منو */
+  z-index: 1030; /* روی سایر محتواها */
+  border-radius: 0 0 5px 5px;
+}
+
+.navbar-nav.flex-column .nav-link {
+  color: #ffffff !important;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  margin: 0px 15px;
+}
+
+.navbar-nav.flex-column .nav-link:hover {
+  background-color: #495057 !important;
+  color: #ffffff !important;
+  margin: 0px 15px;
+}
+
+
